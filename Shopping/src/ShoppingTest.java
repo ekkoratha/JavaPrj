@@ -71,7 +71,7 @@ public class ShoppingTest {
 	 * GIVEN Shopper has picked 3 I1 items
 	 * AND I1 is Apple
 	 * WHEN calcCost is invoked
-	 * THEN the result is 35p * 3 = £1 and 5p
+	 * THEN the result is 35p * 3 = ï¿½1 and 5p
 	 */
 	@Test
 	public void testCostOfThreeApple() {
@@ -181,7 +181,7 @@ public class ShoppingTest {
 	 * GIVEN Shopper has picked 2 I1 items 
 	 * AND I1 is Melon
 	 * WHEN calcCost is invoked
-	 * THEN the result is 50p * 2 = £1
+	 * THEN the result is 50p * 2 = ï¿½1
 	 * AND since Melon are on Offer BOGOF it only costs 50p
 	 */
 	@Test
@@ -204,8 +204,8 @@ public class ShoppingTest {
 	 * GIVEN Shopper has picked 3 I1 items 
 	 * AND I1 is Melon
 	 * WHEN calcCost is invoked
-	 * THEN the result is 50p * 3 = £1 & 50p
-	 * AND since Melon are on Offer BOGOF it only costs £1
+	 * THEN the result is 50p * 3 = ï¿½1 & 50p
+	 * AND since Melon are on Offer BOGOF it only costs ï¿½1
 	 */
 	@Test
 	public void testCostOfThreeMelon() {
@@ -227,8 +227,8 @@ public class ShoppingTest {
 	 * GIVEN Shopper has picked 4 I1 items 
 	 * AND I1 is Melon
 	 * WHEN calcCost is invoked
-	 * THEN the result is 50p * 4 = £2
-	 * AND since Melon are on Offer BOGOF it only costs £1
+	 * THEN the result is 50p * 4 = ï¿½2
+	 * AND since Melon are on Offer BOGOF it only costs ï¿½1
 	 */
 	@Test
 	public void testCostOfFourMelon() {
@@ -250,8 +250,8 @@ public class ShoppingTest {
 	 * GIVEN Shopper has picked 5 I1 items 
 	 * AND I1 is Melon
 	 * WHEN calcCost is invoked
-	 * THEN the result is 50p * 5 = £2 and 50p
-	 * AND since Melon are on Offer BOGOF it only costs £1 & 50p
+	 * THEN the result is 50p * 5 = ï¿½2 and 50p
+	 * AND since Melon are on Offer BOGOF it only costs ï¿½1 & 50p
 	 */
 	@Test
 	public void testCostOfFiveMelon() {
@@ -317,7 +317,7 @@ public class ShoppingTest {
 	 * AND I1 is Lime
 	 * WHEN calcCost is invoked
 	 * THEN the result is 15p + 15p + 15p
-	 * AND I1 is on ‘three for the price two’ offer
+	 * AND I1 is on ï¿½three for the price twoï¿½ offer
 	 */
 	@Test
 	public void testCostOfThreeLime() {
@@ -350,7 +350,7 @@ public class ShoppingTest {
 	 *  if 7 items - 75p
 	 *  if 8 items - 90p
 	 *  if 9 items - 90p
-	 * AND I1 is on ‘three for the price two’ offer
+	 * AND I1 is on ï¿½three for the price twoï¿½ offer
 	 */
 	@Test
 	public void testCostOfNLime() {
