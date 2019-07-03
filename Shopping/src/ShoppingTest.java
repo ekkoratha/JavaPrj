@@ -273,7 +273,7 @@ public class ShoppingTest {
 	 * GIVEN Shopper has picked item I1
 	 * AND I1 is Lime
 	 * WHEN calcCost is invoked
-	 * THEN the result is 15p.
+	 * THEN the result is 15p..
 	 */
 	@Test
 	public void testCostOfOneLime() {
